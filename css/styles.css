@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+/* Top Container */
+
+.myimage-item {
+    height: 100px;
+    width: 100px;
+}
