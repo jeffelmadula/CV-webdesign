@@ -1,9 +1,12 @@
 body {
-    margin: 0;
+    margin: auto 20rem auto 20rem;
     text-align: center;
 }
 
 /* Top Container */
+.top-container {
+    display: grid;
+}
 
 .myimage-item {
     height: 100px;
