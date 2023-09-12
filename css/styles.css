@@ -6,12 +6,21 @@ body {
 /* Top Container */
 .top-container {
     display: flex;
-    flex: 0 1 auto;
+    margin-left: 22.5rem;
 }
 
-
+.top-name .myimage-item {
+    flex-direction: 1 1 auto;
+}
 
 .myimage-item {
-    height: 100px;
-    width: 100px;
+    padding-left: 5rem;
+    height: 6.25rem;
+    width: 6.25rem;
+}
+
+/* Middle Container */
+
+.middle-container {
+    display: flex;
 }
