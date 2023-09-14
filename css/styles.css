@@ -1,6 +1,6 @@
 body {
     margin: auto 20rem auto 20rem;
-    text-align: center;
+    
 }
 
 /* Top Container */
@@ -23,4 +23,9 @@ body {
 
 .middle-container {
     display: flex;
+}
+
+.bodyresume {
+    padding: 1rem;
+    border: .5rem solid black;
 }
