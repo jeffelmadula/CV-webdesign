@@ -1,5 +1,10 @@
-body {
-    margin: auto 20rem auto 20rem;
+
+/* Whole Container */
+
+.whole-container {
+    width: 1000px;
+    margin: auto;
+    border: solid 6px black;
     
 }
 
@@ -7,10 +12,11 @@ body {
 .top-container {
     display: flex;
     justify-content: center;
+    margin: 10px;
 }
 
 .top-name .myimage-item {
-    flex-direction: 1 1 auto;
+    flex: 1 1 auto;
 }
 
 .myimage-item {
@@ -23,5 +29,20 @@ body {
 
 .middle-container {
     display: flex;
+    margin: 10px 10px;
+}
+
+.left-container {
+    flex: 1 1 auto;
+}
+
+.right-container {
+    flex: 1 1 800px;
+}
+
+
+.contact-container p {
+    display: inline-block;
+    
 }
 
