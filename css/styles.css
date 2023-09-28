@@ -1,11 +1,16 @@
+body {
+    margin: auto 10rem auto 10 rem;
+}
+
 
 /* Whole Container */
 
 .whole-container {
-    width: 1000px;
+    width: 62.5rem;
     margin: auto;
-    border: solid 6px black;
-    
+    border: solid 5px black;
+    display: flex;
+    justify-content: center;
 }
 
 /* Top Container */
